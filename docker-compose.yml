@@ -3,5 +3,7 @@ services:
   app:
     build: ./
     container_name: test_php
+    ports:
+      - 9001:9000
     volumes:
       - ./:/var/www
