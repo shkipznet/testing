@@ -5,8 +5,12 @@ use PHPUnit\Framework\TestCase;
 
 class ExampleTest extends TestCase
 {
+    /**
+    * @return void
+    */
     public function testExample(): void
     {
-        $this->assertEquals(true, true);
+        // Test fails
+        $this->assertEquals(true, false);
     }
 }
