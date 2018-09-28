@@ -10,6 +10,7 @@ class ExampleTest extends TestCase
     */
     public function testExample(): void
     {
+        // Test fails
         $this->assertEquals(true, false);
     }
 }
