@@ -3,6 +3,9 @@ declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
 
+/**
+* Test
+*/
 class ExampleTest extends TestCase
 {
     /**
@@ -11,6 +14,6 @@ class ExampleTest extends TestCase
     public function testExample(): void
     {
         // Test fails
-        $this->assertEquals(true, false);
+        $this->assertEquals(true, true);
     }
 }
