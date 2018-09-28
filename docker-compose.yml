@@ -4,6 +4,6 @@ services:
     build: ./
     container_name: test_php_jira
     ports:
-      - 9001:9000
+      - 9005:9000
     volumes:
       - ./:/var/www
